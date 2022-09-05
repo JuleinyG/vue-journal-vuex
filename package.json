@@ -2,11 +2,15 @@
   "name": "journal",
   "version": "0.1.0",
   "private": true,
+  "description": "## Project setup ``` npm install ```",
+  "author": "",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
+  "main": ".eslintrc.js",
   "dependencies": {
     "axios": "^0.27.2",
     "bootstrap": "^5.2.0",
@@ -22,14 +26,16 @@
     "@vue/cli-plugin-babel": "~5.0.8",
     "@vue/cli-plugin-eslint": "~5.0.8",
     "@vue/cli-plugin-router": "~5.0.8",
+    "@vue/cli-plugin-unit-jest": "~5.0.0",
     "@vue/cli-service": "~5.0.8",
+    "@vue/test-utils": "^2.0.0-0",
+    "@vue/vue3-jest": "^27.0.0-alpha.1",
+    "babel-jest": "^27.0.6",
     "eslint": "^8.22.0",
     "eslint-plugin-vue": "^9.3.0",
+    "jest": "^27.0.5",
     "sass": "^1.54.4",
     "sass-loader": "^10.3.1"
   },
-  "description": "## Project setup ``` npm install ```",
-  "main": ".eslintrc.js",
-  "author": "",
   "license": "ISC"
 }
